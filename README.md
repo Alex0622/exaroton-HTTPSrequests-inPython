@@ -13,4 +13,5 @@ You can find your API token in your [exaroton account settings](https://exaroton
 
 # How to get your server ID?
 You can see your server ID on the ["Servers"](https://exaroton.com/servers/) page below the server name or any server page on the left below the server name. The server ID starts with a #:
+
 ![image](https://user-images.githubusercontent.com/70553543/114220991-e9ca7300-9929-11eb-8961-6266419f26cf.png)
