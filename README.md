@@ -1,7 +1,7 @@
 # Information about this repository.
 This repository contains the files which give you an example of how to do a HTTPS request using the exaroton API in Python. You can check the exaroton API documentation [here](https://support.exaroton.com/hc/en-us/articles/360011926177-API-documentation).
 
-# How to use "GET" in a HTTPS requests in Python?
+# How to use "GET" in HTTPS requests using Python?
 First of all you need to add your API token in the python file. Other files require a server ID to get logs, RAM, or other options of that server.
 After adding your API token and (in case that it's needed) your server ID, you can simply execute the Python file.
 
