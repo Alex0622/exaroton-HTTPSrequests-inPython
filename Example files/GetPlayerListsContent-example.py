@@ -5,6 +5,13 @@ import json
 api_token = "Insert your API token here"
 serverID = "Insert your server ID here"
 playerlist = "Insert your player list here"
+'''
+Allowed playerlists:
+    whitelist
+    ops
+    banned-players
+    banned-ips
+'''
 base_url = "https://api.exaroton.com/v1"
 
 
