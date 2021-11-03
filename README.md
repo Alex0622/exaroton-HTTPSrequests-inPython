@@ -1,5 +1,8 @@
 # Information about this repository.
-This repository contains files that give you an example of how to do HTTPS requests using the exaroton API and Python. You can check the exaroton API documentation [here](https://developers.exaroton.com/).
+This repository contains files that give you an example of how to do HTTPS requests using the exaroton API and Python. You can check the exaroton API documentation [here](https://developers.exaroton.com/). 
+
+# Requirements
+1. [aiohttp](https://pypi.org/project/aiohttp/)
 
 # How to use "GET" in HTTPS requests using Python?
 First of all you need to add your API token in the python file. Other files require a server ID to get logs, RAM, or other options of that server.
