@@ -25,4 +25,11 @@ loop.run_until_complete(main())
 
 '''
 Stop your exaroton server.
+
+Example response:
+{
+  "success": true,
+  "error": null,
+  "data": null
+}
 '''

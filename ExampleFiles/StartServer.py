@@ -2,15 +2,14 @@ import aiohttp
 import asyncio
 import json
 
-api_token = "YkEceXi4PjgxNZNn6bbOCqKoWer6f2EHhytAR9R7ZUOaWiT8e3ybDwZg6YRb17YEe0Ilfx7Sfm1m8RWbq7spS9Xw41IuAEzUlxQR"
-serverID = "e3Kyo9RMJXhs111a"
+api_token = "Insert your API token here"
+serverID = "Insert your server ID here"
 base_url = "https://api.exaroton.com/v1"
-ownCredits = {"useOwnCredits" : True}
 
 
 
 async def main():
-    resp = await api_request(f"/server/{serverID}/start/", "POST", ownCredits)
+    resp = await api_request(f"/server/{serverID}/start/", "GET", {})
     print(json.dumps(resp))
 
 
@@ -25,5 +24,12 @@ loop = asyncio.get_event_loop()
 loop.run_until_complete(main())
 
 '''
-Start an exaroton server that you have shared access to with your own credits.
+Start your exaroton server.
+
+Example response:
+{
+  "success": true,
+  "error": null,
+  "data": null
+}
 '''
